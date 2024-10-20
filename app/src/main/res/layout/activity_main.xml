@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="#0252ff"
+        android:fontFamily="@font/poppins_medium"
+        android:text="TD 1"
+        android:textColor="#F3E5F5"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="15dp"
+
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Entrer le premier mot"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+
+
+
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:hint="Entrer le deuxieme mot"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Ajouter un espace"
+        android:layout_margin="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnConcat"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Concaténer"
+        android:textStyle="bold"
+        android:textSize="17dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="303dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="bold"
+        android:textSize="25sp"
+
+        android:text="" />
+
+</LinearLayout>
